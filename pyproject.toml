@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "llm-knowledge-gap-simulation"
+version = "1.0.0"
+description = "Structured LLM evaluation for simulated human knowledge gaps"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["datasets>=2.20", "langchain-core>=0.3", "langchain-google-genai>=2", "numpy>=1.26", "pandas>=2.2", "pydantic>=2.8", "tenacity>=8.5", "tqdm>=4.66"]
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+[project.scripts]
+knowledge-gap-sim = "knowledge_gap_simulation.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.ruff]
+line-length = 140
+[tool.pytest.ini_options]
+testpaths = ["tests"]

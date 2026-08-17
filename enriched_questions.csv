@@ -1,0 +1,161 @@
+id,question_stem,choices,answerKey,subject_area,difficulty,reasoning
+12-878,Which is likeliest to metamorphose?,"A. a live insect
+B. a human
+C. a plant
+D. a dead butterfly",A,biology,2,"The question requires understanding the biological definition of metamorphosis and identifying which organism undergoes this process (insects) versus those that do not (humans, plants) or cannot (dead organisms)."
+11-287,Which animal is most likely to eat another living animal?,"A. deer
+B. elephant
+C. worm
+D. lion",D,biology,1,The question requires simple factual recall regarding the dietary habits of common animals to identify a carnivore.
+13-886,"If a see through thing is multifaceted, it is most likely","A. a ball
+B. an apple
+C. a silver globe
+D. a quartz square",D,other,2,"The question requires understanding the definition of 'multifaceted' and the physical properties of materials (transparency). A quartz crystal is naturally multifaceted and transparent, whereas the other options are either opaque or typically spherical/smooth."
+11-497,Which two objects would electricity best flow through?,"A. a tin can and a plastic fork
+B. a steel beam and a soda can
+C. an eraser and a wooden pencil
+D. human skin and rubber gloves",B,physics,2,"The question requires identifying which materials are electrical conductors versus insulators. It involves recalling the properties of metals (steel, tin) versus non-metals (plastic, rubber, wood) and applying that knowledge to select the pair consisting of two conductors."
+9-173,When a wolf is buried what will happen to other wolves?,"A. small change
+B. learn to fly
+C. less of them
+D. more of them",C,biology,2,The question requires understanding basic population dynamics (the removal of an individual from a population leads to a decrease in the total count) and applying that to a wolf pack scenario.
+1014,An animal that may like a banana peel is a,"A. bear
+B. raccoon
+C. cat
+D. dog",B,biology,2,"The question requires knowledge of animal diets (biology) and the application of that knowledge to identify an omnivorous scavenger (raccoon) that would consume food waste like a banana peel, distinguishing it from the primarily carnivorous cats and dogs."
+14-788,What is made of minerals?,"A. Stonehenge
+B. car engines
+C. alcohol
+D. electricity",A,earth_science,2,"The question requires identifying which option is composed of geological materials (minerals). Stonehenge is made of stone (sarsen and bluestone), which are aggregates of minerals, whereas the other options are either organic, metallic alloys (processed), or energy forms."
+12-352,"If you find an animal that isnt breathing, it is safe to assume that thing","A. watched TV
+B. cried
+C. perished
+D. laughed",C,biology,1,"The question requires the recall of a basic biological fact: that breathing is a vital sign of life, and its absence indicates death."
+14-350,Which is true?,"A. hot coffee will stay hot forever
+B. hot coffee is cold
+C. hot coffee can injure due to its temperature
+D. hot coffee prevents getting hot enough to burn",C,physics,2,The question requires understanding the concept of thermal energy transfer (heat dissipation) and the practical application that high-temperature substances can cause thermal burns to human tissue.
+8-24,"A hurricane is growing on the east coast, and it's coming off of the ocean, as they do. By the time the hurricane hits the east coast, it will have built up quite a bit, and this is because of","A. the salt from the ocean
+B. the ocean being quite wet
+C. seas have humidity from raised temperatures and fluid
+D. the sea being cool and calm",C,earth_science,2,"The question requires understanding the basic mechanism of hurricane intensification, specifically that warm ocean water provides the heat and moisture (humidity) necessary to fuel the storm's development."
+7-729,The reason that flies can always find food is that they can smell,"A. organism decay
+B. bad smells
+C. dying animals
+D. rotting trees",A,biology,1,This is a basic fact recall question regarding the biological behavior of flies and their sensory attraction to decaying organic matter as a food source.
+12-677,Webbed feet are used to move faster through what?,"A. rain
+B. winds
+C. clouds
+D. swamps",D,biology,1,This is a basic fact recall question regarding the biological adaptation of webbed feet for locomotion in aquatic environments.
+12-428,If an island is experiencing a hot summer it is because,"A. of the water
+B. of the axis
+C. of the shade
+D. of glaciers",B,astronomy,2,"The question requires understanding that seasons are caused by the tilt of the Earth's axis relative to its orbit around the sun, which is a fundamental concept in astronomy. It goes beyond simple recall by requiring the application of this concept to the phenomenon of a 'hot summer'."
+13-383,"If a thing is going to be a planet, it must orbit in a certain amount of time, which can exclude","A. mercury
+B. the ninth planet
+C. the third planet
+D. venus",B,astronomy,3,The question requires knowledge of the IAU definition of a planet (specifically the requirement to clear the neighborhood around its orbit) and the application of that definition to identify Pluto (the ninth planet) as the object excluded by these criteria.
+9-97,A man plugs his television into an outlet behind a cabinet. He sees that the television may now be turned on so that he can watch his favorite show. The man knows that by hooking the t.v. cord into the outlet,"A. he completed a lap
+B. he made a good deal
+C. he invented new circuits
+D. he completed a circuit",D,physics,2,The question requires understanding the basic concept of an electrical circuit and applying it to a common household scenario (plugging in an appliance). It involves recalling the definition of a closed circuit as a prerequisite for electrical device operation.
+14-619,More butterflies will come as buttercups become more,"A. advertised
+B. ripe
+C. social media friendly
+D. toxic",B,biology,2,"The question tests the understanding of ecological relationships, specifically pollination. It requires knowing that butterflies are attracted to flowers (buttercups) for nectar and that 'ripe' (in the context of blooming/nectar production) is the biological state that attracts pollinators, whereas the other options are nonsensical in a biological context."
+10-729,An example of an animal pollinator is,"A. Dogs
+B. Leaves
+C. Cape elephant sengis
+D. Water",C,biology,2,"The question requires identifying an animal pollinator from a list. While it is a recall-based question, it requires the trivial application of distinguishing between biological organisms that act as pollinators versus those that do not (or are non-living factors)."
+8-8,I have to plug in a processor of food because it,"A. Is used for grinding metal
+B. is an oil machine
+C. is an electric Motor
+D. is a battery operated machine",C,other,2,The question requires identifying the power source of a common household appliance (food processor). It involves recalling the function of a plug (connecting to an electrical outlet) and applying that knowledge to identify the internal component (electric motor) that drives the device.
+11-692,Blood gets directed around beneath skin and bone by,"A. a person
+B. a vision
+C. a thought process
+D. long passages",D,biology,1,The question asks for the basic anatomical structures (blood vessels) that transport blood throughout the body. It is a simple recall question regarding the circulatory system.
+12-951,What anchors plants into the soil are called,"A. a form of webbing
+B. Velcro with extra grip
+C. the same as an american television miniseries about slavery
+D. large anchors made of metal",C,biology,1,"The question asks for the definition of a basic plant structure (roots). The choices provided are nonsensical or metaphorical, but identifying the function of roots is a fundamental biology fact recall."
+13-130,"Robert has only has power downstairs. In order to move the light from downstairs to his upstairs bedroom, he can","A. Just stay in the downstairs rooms
+B. set up an array of drinking glasses
+C. set up an array of mirrors
+D. Unscrew a light bulb downstairs and move it upstairs",C,physics,2,"The question tests the understanding of electrical circuits and the function of a light bulb. It requires identifying that a light bulb is a portable component of a circuit that can be moved, whereas the power source (the downstairs wiring) is fixed. The distractors involve optics (mirrors/glasses) which are irrelevant to the requirement of moving the light source itself."
+12-1174,Corn would likely provide nutrients to,"A. a rock
+B. a ice
+C. a waterfall
+D. a raven",D,biology,1,"The question tests the basic biological concept that nutrients are consumed by living organisms, and among the choices provided, only the raven is a living organism."
+10-956,Dogs,"A. are born with teeth
+B. leave their young to fend for themselves like turtle babies
+C. provide direct sustenance to their newborn puppies
+D. lay eggs to sit on",C,biology,1,The question tests basic knowledge of mammalian characteristics. Identifying that dogs are mammals that nurse their young is a single fact recall task.
+8-267,Water in a sealed jar might do what when placed in the freezer?,"A. evaporate
+B. break it
+C. melt
+D. run off",B,physics,2,The question requires recalling the property of water expansion upon freezing (fact 1) and applying it to the context of a sealed container (trivial application) to conclude that the pressure will cause the jar to break.
+12-465,The organ most made of muscle is the,"A. one pumping blood
+B. brain
+C. liver
+D. kidney",A,biology,2,"The question requires identifying the function of the heart (pumping blood) and recognizing it as a muscular organ, which is a basic application of biological knowledge regarding organ systems."
+13-261,A tuna would prefer to consume,"A. An Apple
+B. beef
+C. Nemo
+D. dogs",C,biology,2,"The question requires identifying the dietary habits of a tuna (a carnivorous marine fish) and applying that knowledge to select the only choice that represents a natural prey item (a smaller fish, represented by the character 'Nemo')."
+13-384,Which acts as an insulator for electricity?,"A. A metal ring
+B. A battery
+C. A door hinge
+D. Beeswax",D,physics,1,"The question requires simple recall of the properties of materials as either conductors or insulators. Beeswax is a known dielectric/insulator, while the other options are conductors or power sources."
+14-571,"In the natural world, camouflage is used by animals to","A. stand out among their piers
+B. avoid being a meal
+C. look stylish for others
+D. stay warm in the winter",B,biology,1,The question requires simple recall of the biological definition and purpose of camouflage in animals.
+12-923,"If a thing that was huge and hard is suddenly pooling at your feet,","A. it is brick
+B. it was warmed
+C. it is froze
+D. it is oak",B,physics,3,The question requires understanding the phase change of matter (solid to liquid) and identifying which material property (melting) fits the description of transitioning from a 'huge and hard' solid state to a 'pooling' liquid state due to temperature change.
+10-768,"If the Earth revolved around another planet instead of a star, what might it lack?","A. continents
+B. satellites
+C. starry skies
+D. seasons",D,astronomy,4,"The question requires understanding the mechanics of planetary orbits, the definition of a star vs. a planet, and how these factors influence the presence of seasons (which depend on axial tilt and orbital path around a light source). It requires multi-step reasoning to deduce that orbiting a planet instead of a star would fundamentally alter the illumination and orbital dynamics necessary for Earth-like seasons."
+1388,You can see further from which of these locations on the moon?,"A. mountains
+B. crater
+C. buildings
+D. surface",A,astronomy,2,"The question requires understanding the relationship between elevation and the horizon distance (a basic principle of geometry/physics applied to planetary surfaces). Higher elevation allows for a further line of sight, and the moon's mountains provide the highest elevation among the choices."
+10-683,Squirrels can often be seen storing acorns during the,"A. summer
+B. spring
+C. fall
+D. winter",C,biology,1,This is a basic fact-recall question regarding animal behavior and seasonal life cycles.
+14-1509,An organism that can survive without the help of other cells is,"A. Brewer's yeast
+B. air
+C. sand
+D. sugar",A,biology,1,"The question asks for the definition of a unicellular organism, which is a basic biological fact. Brewer's yeast is a well-known example of a single-celled organism, while the other options are non-living substances."
+13-286,some animals remove their hair coverings for,"A. naptime
+B. lunchtime
+C. mating season
+D. scorching climates",D,biology,2,The question requires recalling the biological function of hair (insulation) and applying that knowledge to understand why an animal would shed it in response to environmental temperature changes (thermoregulation).
+1873,Which animal sometimes needs to move quickly for food?,"A. coyote
+B. horse
+C. deer
+D. buffalo",A,biology,2,"The question requires identifying a predator (coyote) that hunts for food, distinguishing it from the other choices which are herbivores (prey animals). It involves basic biological knowledge of animal behavior and dietary habits."
+10-218,A person who wants to eat a watermelon may consider spitting out its,"A. dark pips
+B. good taste
+C. coco pebbles
+D. red fruit",A,biology,1,The question requires basic knowledge of the anatomy of a watermelon and the common practice of removing seeds (pips) before eating.
+11-187,"A person loves spring, and it has just passed by. They will enjoy it again the next time","A. the stars go out
+B. most irises begins budding
+C. a week goes by
+D. the days grow shorter",B,earth_science,2,"The question requires understanding the seasonal cycle of the Earth's orbit around the sun. Spring is a seasonal event that recurs annually, and the budding of irises is a biological indicator associated with the arrival of spring."
+10-368,Flora requires chlorophyll to,"A. moonlight
+B. undergo natural development
+C. starlight
+D. dairy",B,biology,1,"The question tests basic knowledge of plant biology, specifically the role of chlorophyll in photosynthesis, which is essential for a plant's growth and development."
+7-24,A smack on a wooden board can be heard a mile away,"A. because sound travels through oxygen
+B. because of how sound works
+C. because vibration can move
+D. because sound vibrates through atmosphere",D,physics,2,The question requires identifying the mechanism of sound propagation (vibration through a medium) as the reason why a sound can be heard at a distance. It is a recall of the fundamental concept of sound waves combined with a trivial application to a real-world scenario.
+7-829,"If a wolf is unable to catch prey reliably, the wolf will","A. show ribs
+B. hunt more
+C. have pups
+D. take naps",A,biology,2,The question requires understanding the biological relationship between caloric intake (from prey) and physical health (body condition). It involves a trivial application of the concept that insufficient food leads to weight loss and visible ribs.
