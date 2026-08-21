@@ -1,8 +1,24 @@
 # Simulating Human Knowledge Gaps in LLMs
 
-A structured LLM evaluation framework for testing whether models can simulate agents with incomplete conceptual knowledge. The full workflow covers OpenBookQA ingestion, domain/difficulty enrichment, concept extraction, two knowledge-restriction prompting strategies, naive-answer generation, theory-of-mind probes, leakage detection, failure-mode analysis, and confidence calibration.
+An LLM-evaluation framework for a subtle theory-of-mind question: can a language model answer as an agent who lacks a particular concept, without accidentally using the knowledge it was instructed to withhold?
 
-## Commands
+## Problem
+
+Many models can state that a hypothetical person is uninformed, yet still give an expert answer on that person's behalf. This project turns that failure mode into a measurable experiment using OpenBookQA questions, structured knowledge restrictions, leakage checks, and confidence analysis.
+
+## What was built
+
+- OpenBookQA ingestion with domain and difficulty enrichment.
+- Structured concept extraction and two knowledge-restriction prompting strategies.
+- Naive-answer generation and theory-of-mind probes.
+- Automatic leakage detection, failure-mode taxonomy, and confidence calibration analysis.
+- Provider abstraction and versioned prompt contracts so the experiment can be rerun across models.
+
+## Main takeaways
+
+The important outcome is not only whether the model answers correctly. The framework separates correctness, faithfulness to the restricted knowledge state, leakage, and confidence, making it possible to detect fluent answers that violate the simulated agent's perspective.
+
+## Reproduce
 
 ```bash
 pip install -e .
@@ -11,14 +27,4 @@ knowledge-gap-sim generate --data-dir data --output-dir outputs
 knowledge-gap-sim analyze --data-dir . --output-dir outputs/analysis
 ```
 
-`generate` runs model-backed enrichment, concept extraction, simulation, and naive baselines. `analyze` is fully offline and reproduces the strategy, leakage, failure-mode, and calibration tables from existing CSV artifacts.
-
-## Package design
-
-`provider.py` isolates the LLM API, `schemas.py` owns structured outputs, `prompts.py` contains versioned prompt contracts, `enrichment.py` and `concepts.py` construct the experiment, `simulation.py` executes conditions, and `evaluation.py` performs behavioral analysis.
-
-No keys or secrets are stored in the repository.
-
-## Topics
-
-`llm-evaluation` `theory-of-mind` `knowledge-simulation` `behavioral-science` `openbookqa` `structured-output`
+`analyze` works offline on existing artifacts. API keys and credentials are never stored in the repository; CI validates the offline package path.
