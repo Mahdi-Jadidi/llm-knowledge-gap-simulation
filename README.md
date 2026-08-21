@@ -1,30 +1,76 @@
+<div align="center">
+
 # Simulating Human Knowledge Gaps in LLMs
 
-An LLM-evaluation framework for a subtle theory-of-mind question: can a language model answer as an agent who lacks a particular concept, without accidentally using the knowledge it was instructed to withhold?
+**A theory-of-mind evaluation framework for knowledge-restricted perspective taking**
 
-## Problem
+[![CI](https://github.com/Mahdi-Jadidi/llm-knowledge-gap-simulation/actions/workflows/ci.yml/badge.svg)](https://github.com/Mahdi-Jadidi/llm-knowledge-gap-simulation/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Evaluation](https://img.shields.io/badge/LLM-Behavioral%20evaluation-111827)
 
-Many models can state that a hypothetical person is uninformed, yet still give an expert answer on that person's behalf. This project turns that failure mode into a measurable experiment using OpenBookQA questions, structured knowledge restrictions, leakage checks, and confidence analysis.
+</div>
 
-## What was built
+## Research question
 
-- OpenBookQA ingestion with domain and difficulty enrichment.
-- Structured concept extraction and two knowledge-restriction prompting strategies.
-- Naive-answer generation and theory-of-mind probes.
-- Automatic leakage detection, failure-mode taxonomy, and confidence calibration analysis.
-- Provider abstraction and versioned prompt contracts so the experiment can be rerun across models.
+Can a language model answer from the perspective of a person who has never learned a specific concept, or does it continue to use that concept while merely claiming ignorance?
 
-## Main takeaways
+This repository turns that question into a reproducible OpenBookQA-based experiment. It evaluates correctness, expected naive behavior, knowledge leakage, failure mode, and confidence as separate outcomes.
 
-The important outcome is not only whether the model answers correctly. The framework separates correctness, faithfulness to the restricted knowledge state, leakage, and confidence, making it possible to detect fluent answers that violate the simulated agent's perspective.
+## Pilot finding
 
-## Reproduce
+| Measure | Best pilot result |
+|---|---:|
+| Match to expected knowledge-restricted answer | **62.5%** |
+
+The pilot shows that explicit perspective instructions do not guarantee faithful knowledge restriction. Models can produce fluent, confident explanations that still rely on withheld concepts; this is why leakage analysis is a first-class metric rather than an anecdotal observation.
+
+## Evaluation design
+
+```mermaid
+flowchart LR
+    A[OpenBookQA item] --> B[Domain and difficulty enrichment]
+    B --> C[Concept extraction]
+    C --> D1[Restriction strategy A]
+    C --> D2[Restriction strategy B]
+    D1 --> E[Model response]
+    D2 --> E
+    E --> F1[Gold-answer match]
+    E --> F2[Expected-naive match]
+    E --> F3[Leakage detection]
+    E --> F4[Confidence calibration]
+```
+
+## What is measured
+
+| Dimension | Question answered |
+|---|---|
+| Gold correctness | Did the model solve the original science question? |
+| Perspective fidelity | Did it behave like the restricted agent? |
+| Concept leakage | Did the reasoning use knowledge that should be unavailable? |
+| Failure mode | Was the failure due to leakage, over-refusal, guessing, or inconsistency? |
+| Calibration | Does confidence track behavioral success? |
+
+## Architecture
+
+`provider.py` isolates model APIs, `schemas.py` defines structured outputs, `prompts.py` versions experimental conditions, and the enrichment, concept, simulation, and evaluation modules own distinct stages of the study.
+
+## Quick start
 
 ```bash
+git clone https://github.com/Mahdi-Jadidi/llm-knowledge-gap-simulation.git
+cd llm-knowledge-gap-simulation
 pip install -e .
 export GOOGLE_API_KEY=...
 knowledge-gap-sim generate --data-dir data --output-dir outputs
 knowledge-gap-sim analyze --data-dir . --output-dir outputs/analysis
 ```
 
-`analyze` works offline on existing artifacts. API keys and credentials are never stored in the repository; CI validates the offline package path.
+The analysis command is fully offline and can reproduce tables from cached CSV artifacts without calling a model API.
+
+## Reproducibility and safety
+
+Prompts and structured schemas are versioned in code. Provider failures are kept separate from behavioral failures, and no API keys are stored in the repository.
+
+## Limitations
+
+The pilot is small and model-dependent. Automatic leakage rules can miss implicit concept use, while expected naive answers may admit more than one plausible response. Larger human-annotated studies are needed before making general claims about model theory of mind.
